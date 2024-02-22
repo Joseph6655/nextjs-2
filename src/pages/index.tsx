@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Banner from '@/comps/Banner'
 import Navbar from '@/comps/Navbar'
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
          <title> Home page</title>
         
        </Head>
+       <Banner/>
        <div>
         <text>hellooo</text>
        </div>
