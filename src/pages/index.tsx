@@ -14,12 +14,7 @@ export default function Home() {
        </Head>
        <Banner/>
        <Footer/>
-       <div>
-        <text>hellooo</text>
-       </div>
-
-     
-       
+      
       </div>
     
   )
