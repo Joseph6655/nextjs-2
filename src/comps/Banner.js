@@ -10,6 +10,9 @@ const Banner = () => {
        <div className="banner-item">
         <img src="/dev.jpg" />
       </div>
+      <div className="banner-item">
+        <img src="/fone.jpg" />
+      </div>
     </section>
   )
 }
