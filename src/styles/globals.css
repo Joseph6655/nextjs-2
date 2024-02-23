@@ -47,7 +47,6 @@ main {
   margin-top: 50px;
   min-height: 100vh;
   display: grid;
-  overflow-x: scroll;
 }
 
 .banner-item {
@@ -92,6 +91,7 @@ footer {
   display: flex;
   margin-left: 20px;
   margin-right: 50px;
+  text-decoration: none;
 }
 
 .footer-links li {
