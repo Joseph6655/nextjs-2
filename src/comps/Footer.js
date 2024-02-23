@@ -4,19 +4,19 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <div className="footerall">
-        <img src="/creoshiftlogo.jpg" alt="Footer Logo" />
-        <div className="footer-links">
+      <div className="footer-all">
+
+          <div className ="Footer-logo">
+              <img src="/creoshiftlogo.jpg"/>
+          </div>
+         <div className="footer-links">
           <ul>
             <li>
-              <Link href="/">Home</Link>
-            </li>
+              <Link href="/">Home</Link></li>
             <li>
-              <Link href="/about">About</Link>
-            </li>
+              <Link href="/about">About</Link></li>
             <li>
-              <Link href="/contact">Contact</Link>
-            </li>
+              <Link href="/contact">Contact</Link></li>
           </ul>
         </div>
         <div className="social-icons">

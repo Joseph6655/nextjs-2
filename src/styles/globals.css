@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  background-color: #333;
+  background-color: #0c0c0c;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,8 +55,22 @@ main {
 }
 
 .banner-item img {
+  width: 90%;
+  height: 500px;
+}
+.image-container {
+  position: relative;
+}
+
+.card-content {
+  
+  bottom: 0;
+  left: 0;
   width: 100%;
-  height: auto;
+   
+  color: black;
+  padding: 10px;
+  box-sizing: border-box; 
 }
 
 footer {
@@ -67,7 +81,7 @@ footer {
   align-items: center;
 }
 
-.footerall {
+.footer-all {
   background-color: rgb(5, 5, 5);
   color: white;
   display: flex;
@@ -79,15 +93,18 @@ footer {
   margin-top: auto;
 }
 
-.footer-logo {
-  width: 50px;
-  padding: 20px;
-  align-items: center;
+.Footer-logo img {
+  height: 50px;
+  width: auto; 
+  padding: 5px; 
+
 }
 
+
 .footer-links ul {
+  color: white;
   text-align: center;
-  list-style: none;
+  list-style-type: none;
   display: flex;
   margin-left: 20px;
   margin-right: 50px;
@@ -95,7 +112,10 @@ footer {
 }
 
 .footer-links li {
+  list-style-type: none;
+  color: white;
   margin-right: 30px;
+  text-decoration: none;
 }
 
 .social-icons {
@@ -112,7 +132,7 @@ footer {
   height: 20px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
   .navList {
     margin-bottom: 15px;
   }
